@@ -57,7 +57,7 @@ output "fruit_stock_with_price_of_apple" {
   value = var.fruit_stock_with_price["apple"].stock
 }
 
-# Variable Data Types
+# Variable Data Types18.233.166.250
 variable "fruit_details" {
   default = {
     apple = {
