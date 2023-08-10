@@ -75,6 +75,6 @@ resource "aws_instance" "payment" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "frontend"
+    Name = "payment"
   }
 }
